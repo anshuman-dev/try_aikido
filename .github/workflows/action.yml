@@ -17,8 +17,6 @@ jobs:
             secret-key: AIK_CI_0CBLxaHiYjWiNt2e4fEOabFOm0SO1VTk6aLq46Okapj11zOfArYm895F3DruMYCX
             fail-on-timeout: true
             fail-on-dependency-scan: true
-            fail-on-sast-scan: false
-            fail-on-iac-scan: false
             minimum-severity: 'LOW'
             timeout-seconds: 180
             post-scan-status-comment: false
