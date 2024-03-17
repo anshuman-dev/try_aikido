@@ -22,4 +22,3 @@ jobs:
             minimum-severity: 'LOW'
             timeout-seconds: 180
             post-scan-status-comment: false
-            github-token: ${{ secrets.GITHUB_TOKEN }}
