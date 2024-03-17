@@ -19,4 +19,4 @@ jobs:
             fail-on-dependency-scan: true
             minimum-severity: 'LOW'
             timeout-seconds: 180
-            post-scan-status-comment: false
+            post-scan-status-comment: true
